@@ -1,3 +1,10 @@
+/*
+Stackjs stub
+This file is developed for the use of STACKJS functions during local development of STACK questions with graphs.
+Author: Bernhard Gailer, OTH Amberg-Weiden.
+Latest changes: 11/13/24
+*/
+
 var stack_js = {
 get_content: (id) => new Promise((res) => res(document.getElementById(id))),
 toggle_visibility: (id) => document.getElementById(id).style.display = "block",
